@@ -43,7 +43,7 @@ function App() {
       company: "UMass Boston",
       position: "Intern - Software Engineer",
       period: "August 2024 - Present",
-      description: "Developed efficient web applications, optimized performance, and improved documentation.",
+      description: "Engineered high-performance scientific web apps with sub-millisecond APIs, dynamic UIs, thorough testing, and stakeholder-driven design.",
       technologies: ["React", "Python", "Javascript", "Jira"],
       detailedDescription: [
         "Designed and implemented high-performance RESTful APIs using Python and JavaScript, incorporating advanced features such as sorting, pagination, and fast response times of under 1 ms, ensuring efficient data handling and seamless user interaction.",
@@ -52,10 +52,10 @@ function App() {
       ]
     },
     {
-      company: "UMass Boston",
+      company: "University of Massachusetts Boston",
       position: "Research Assistant",
       period: "August 2023 - May 2024",
-      description: "Worked on cloud infrastructure and developed scalable solutions.",
+      description: "Built scalable, containerized genomic data solutions with automated Snakemake pipelines, interactive web visualization, and efficient PostgreSQL-backed processing on HPC systems.",
       technologies: ["Shell", "Python", "Linux", "Snakemake", "Docker"],
       detailedDescription: [
         "Optimized genomic data processing pipelines on high-performance Linux HPC systems by utilizing shell scripting, automating CUT&RUN, scRNA-seq, and scATAC-seq workflows, resulting in improved efficiency and reduced manual intervention.",
@@ -66,10 +66,10 @@ function App() {
       ]
     },
     {
-      company: "UMass Boston",
+      company: "University of Massachusetts - Boston",
       position: "Grader - Programming in C",
       period: "October 2022 - May 2023",
-      description: "Optimized genomic data workflows, automated pipelines, and streamlined deployment processes.",
+      description: "Empowered student success through personalized tutoring, Python-based grading automation, and actionable feedback—boosting engagement, retention, and academic performance.",
       technologies: ["C", "Python", "Automated testing"],
       detailedDescription: [
         "Conducted personalized one-on-one tutoring sessions for students, tailoring lessons to individual learning styles, and utilizing various teaching tools to boost comprehension, engagement, and academic performance.",
@@ -82,7 +82,7 @@ function App() {
       company: "London Stock Exchange Group",
       position: "Senior Software Engineer",
       period: "April 2022 - August 2023",
-      description: "Enhanced Azure services and implemented new features.",
+      description: "Led the development of high-performance stock market dashboards, while mentoring junior developers and ensuring system reliability through proactive production support.",
       technologies: ["Angular", "Typescript", "Javascript", "Node.js", "Postman", "Swagger", "Snowflake", "Cassandra"],
       detailedDescription: [
         "Led the development of a responsive UI to showcase real-time stock market data, utilizing Angular and Node.js, while incorporating customized user preferences for improved personalization.",
@@ -95,7 +95,7 @@ function App() {
       company: "Refinitiv",
       position: "Associate Software Engineer",
       period: "July 2019 - April 2022",
-      description: "Developed, tested, and deployed high-quality C# and Angular solutions with cross-functional teams.",
+      description: "Led the development of high-performance financial dashboards with Angular/Node.js, API caching, and CI/CD automation—boosting speed, scalability, and software quality across agile teams.",
       technologies: ["Angular", "C#", ".NET", "Node.js", "Jira", "Git"],
       detailedDescription: [
         "Integrated RESTful API services and collaborated with cross-functional teams to develop, test, and deploy high-quality software solutions using C# and .NET with MVC architecture for a Single Page Application.",
@@ -110,7 +110,7 @@ function App() {
       company: "Refinitiv (Thomson Reuters)",
       position: "Intern",
       period: "January 2019 - June 2019",
-      description: "Contributing to the development, optimization, and debugging of C#-based products",
+      description: "Built high-performance financial apps, optimizing APIs and security, boosting data retrieval by 36%, and delivering seamless solutions through cross-functional collaboration.",
       technologies: ["C#", "ASP.NET", "Knockout.js", "HTML5", "CSS3"],
       detailedDescription: [
         "Collaborated in enhancing features for a single-page application, improving overall user experience and interface design.",
@@ -125,63 +125,49 @@ function App() {
     {
       title: "Genomic Data Processing Pipeline",
       description: "Developed an automated pipeline for processing genomic sequencing data using Snakemake workflow management. Implemented parallel processing capabilities and containerized the application for consistent deployment.",
-      image: "/genomic-pipeline.png",
+      image: "/Data_processing.jpg",
       github: "https://github.com/Prarthana-Prathap/genomic-pipeline",
       technologies: ["Python", "Snakemake", "Docker", "Shell"]
     },
     {
-      title: "Stock Market Analytics Dashboard",
-      description: "Built a real-time stock market analytics dashboard using Angular and TypeScript. Features include live data visualization, interactive charts, and personalized watchlists with WebSocket integration.",
-      image: "/stock-analytics.png",
-      github: "https://github.com/Prarthana-Prathap/stock-analytics",
-      technologies: ["Angular", "TypeScript", "WebSocket", "D3.js"]
-    },
-    {
-      title: "API Documentation Portal",
-      description: "Created a comprehensive API documentation portal using React and Sphinx. Implemented interactive API testing, code examples, and automated documentation generation from code comments.",
-      image: "/api-docs.png",
-      github: "https://github.com/Prarthana-Prathap/api-docs-portal",
-      technologies: ["React", "Python", "Sphinx", "REST APIs"]
-    },
-    {
       title: "Simply Organize",
       description: "A web application to organize uploaded files, into a predefined folder structure on the server, improving pipeline execution efficiency by 30%. Built on HTML, JavaScript, Node.js, SQLite for the database and OAuth2 for authentication.",
-      image: "/api-docs.png",
+      image: "/SimplyOrganize.png",
       github: "https://github.com/Prarthana-Prathap/api-docs-portal",
       technologies: ["React", "Python", "Sphinx", "REST APIs"]
     },
     {
       title: "RTInvest",
       description: "A web application for real-time property investment analysis, improving decision-making accuracy for users by 20%. Realtime properties in the area with potential Rate of Investment are displayed on the map with colored markers for the user to make decision using Django, Python and MySQL database.",
-      image: "/api-docs.png",
+      image: "/RTInvest.png",
       github: "https://github.com/Prarthana-Prathap/api-docs-portal",
       technologies: ["React", "Python", "Sphinx", "REST APIs"]
     },
     {
       title: "Client 360",
       description: "A part of Refinitiv's Wealth Management strategy which is efficient in managing clients' assets and providing exceptional advice. The major focus is on maximizing relationship aspects of their client interaction.",
-      image: "/api-docs.png",
+      image: "/Client360.png",
       github: "https://github.com/Prarthana-Prathap/api-docs-portal",
       technologies: ["React", "Python", "Sphinx", "REST APIs"]
     },
     {
       title: "Thomson ONE Anywhere",
       description: "A mobile solution which allows financial advisors and wealth managers to stay connected to critical market information and execute client trades while on the move built using MVC architecture. It allows users to access vital markets and execute client trades on iPad, iPhone and Android tablets.",
-      image: "/api-docs.png",
+      image: "/T1A.png",
       github: "https://github.com/Prarthana-Prathap/api-docs-portal",
       technologies: ["React", "Python", "Sphinx", "REST APIs"]
     },
     {
       title: "Proposal 360",
       description: "A solution targeted for Refinitiv Workspace Wealth Advisors which helps in building proposals for clients and prospects. The project targets integrating various endpoints to provide the data points needed for the UI.",
-      image: "/api-docs.png",
+      image: "/Proposal360.png",
       github: "https://github.com/Prarthana-Prathap/api-docs-portal",
       technologies: ["React", "Python", "Sphinx", "REST APIs"]
     },
     {
       title: "Gene Community",
       description: "Gene Community, a web application which helps researchers and biologists to identify the activators and repressors of a gene. It contains data related to API Complexan parasites like Toxoplasma gondii.",
-      image: "public/APIComplex.jpg",
+      image: "/GeneCommunity.jpg",
       github: "https://github.com/Prarthana-Prathap/api-docs-portal",
       technologies: ["React", "Python", "Sphinx", "REST APIs"]
     },
@@ -502,22 +488,22 @@ function App() {
                 skills: [
                   { 
                     name: "React", 
-                    level: 90,
+                    level: 80,
                     icon: "devicon-react-original colored"
                   },
                   { 
                     name: "JavaScript", 
-                    level: 85,
+                    level: 95,
                     icon: "devicon-javascript-plain colored"
                   },
                   { 
                     name: "TypeScript", 
-                    level: 85,
+                    level: 95,
                     icon: "devicon-typescript-plain colored"
                   },
                   { 
                     name: "Angular", 
-                    level: 85,
+                    level: 95,
                     icon: "devicon-angularjs-plain colored"
                   },
                   { 
@@ -537,12 +523,12 @@ function App() {
                 skills: [
                   { 
                     name: "Python", 
-                    level: 85,
+                    level: 90,
                     icon: "devicon-python-plain colored"
                   },
                   { 
                     name: "Node.js", 
-                    level: 80,
+                    level: 95,
                     icon: "devicon-nodejs-plain colored"
                   },
                   { 
@@ -552,7 +538,7 @@ function App() {
                   },
                   { 
                     name: "Java", 
-                    level: 75,
+                    level: 85,
                     icon: "devicon-java-plain colored"
                   }
                 ]
@@ -562,7 +548,7 @@ function App() {
                 skills: [
                   { 
                     name: "MongoDB", 
-                    level: 80,
+                    level: 75,
                     icon: "devicon-mongodb-plain colored"
                   },
                   { 
@@ -577,12 +563,12 @@ function App() {
                   },
                   { 
                     name: "SQLite", 
-                    level: 80,
+                    level: 95,
                     icon: "devicon-sqlite-plain colored"
                   },
                   { 
                     name: "Git", 
-                    level: 90,
+                    level: 95,
                     icon: "devicon-git-plain colored"
                   }
                 ]
@@ -592,7 +578,7 @@ function App() {
                 skills: [
                   { 
                     name: "Docker", 
-                    level: 75,
+                    level: 90,
                     icon: "devicon-docker-plain colored"
                   },
                   { 
